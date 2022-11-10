@@ -213,3 +213,18 @@ h5 p{
     font-size: 16px;
 }
 /* footer ends */
+
+/* inner pages code */
+.header_inner{
+    width: 100%;
+    margin: 0px;
+    }
+.placeheader{
+    width: 85%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+.placeheader h2{
+    color: #1e1d1d;
+    margin-top: 3em;
+}
