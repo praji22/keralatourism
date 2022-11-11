@@ -47,15 +47,13 @@ h5 p{
     color: #df7d0e;
 }
 .signbtn{
-    border: 1px solid #1e1d1d;
     border-radius: 30px;
     margin-left: 15px;
 }
 .signbtn:hover{
     background-color: #df7d0e;
     font-weight: normal;
-    border: 1px solid #fff;
-}
+ }
 .signbtn a:hover{
     color:#fff;
 }
@@ -82,9 +80,7 @@ h5 p{
         font-weight:bold;
         color: #1e1d1d;
     }
-    .signbtn .signbtn:hover{
-        border: none;
-    }
+   
     .signbtn:hover{
         font-weight: normal;
         border:none;
@@ -103,6 +99,9 @@ h5 p{
     .banner .carousel-caption a{
         padding: 5px 8px;
         font-size: 10px;
+    }
+    .banner .carousel-indicators{
+        bottom: 140px;
     }
     .banner{
         width: 100%;
@@ -187,14 +186,16 @@ h5 p{
     .places{
         height: 30vh;
     }
+    /* signup */
+    .vh-100{
+        min-height: 65em;
+    }
 }
 
 .places .card-title{
     width:100%;
 }
-.card{
-    text-align: center;
-}
+
 /* footer starts */
 .footer_section .row{
    margin-left: 5em;
@@ -227,4 +228,20 @@ h5 p{
 .placeheader h2{
     color: #1e1d1d;
     margin-top: 3em;
+}
+.placeheader .card-text p{
+    text-align: left;
+}
+
+/* sign up */
+.vh-100{
+    margin: 6em 0;
+}
+.vh-100 .card p{
+    color: #01953f;
+}
+.vh-100 form a{
+    color: #01953f;
+    text-decoration: none;
+    font-weight: bold;
 }
