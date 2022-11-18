@@ -1,0 +1,40 @@
+
+ #message {
+  display:none;
+  color: #2c2929;
+  position: relative;
+  padding: 0;
+}
+#message h4{
+  font-size:18px ;
+  color: #2c2929;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+#message p {
+  padding: 0;
+  font-size: 16px;
+}
+/* Add a green text color and a checkmark when the requirements are right */
+#message .valid {
+  color: green;
+}
+
+#message .valid:before {
+  position: relative;
+  left: -20px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+#message .invalid {
+  color: #ff3300e8;
+}
+
+.invalid:before {
+  position: relative;
+  left: -20px;
+  font-weight: bold;
+  content: "x";
+}
